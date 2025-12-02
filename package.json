@@ -1,0 +1,35 @@
+{
+  "name": "torrent-client",
+  "version": "1.0.0",
+  "description": "Cliente torrent em Node.js com interface gráfica usando Electron e WebTorrent",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . MyTorrentClient --platform=win32,darwin,linux --arch=x64 --out=dist --overwrite"
+  },
+  "keywords": [
+    "torrent",
+    "electron",
+    "webtorrent",
+    "nodejs",
+    "client"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "webtorrent": "^1.9.7"
+  },
+  "devDependencies": {
+    "electron": "^26.6.10",
+    "electron-packager": "^17.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leyfo/torrent-client.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Leyfo/torrent-client/issues"
+  },
+  "homepage": "https://github.com/Leyfo/torrent-client#readme"
+}
