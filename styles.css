@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+.controls { margin-bottom: 20px; }
+button { margin-left: 10px; }
+ul { list-style: none; padding: 0; }
+li { margin-bottom: 15px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+.progress-bar { background-color: #4caf50; height: 20px; border-radius: 5px; }
+.progress-container { width: 100%; background: #ddd; border-radius: 5px; margin-top: 5px; }
+.file-list { font-size: 0.9em; margin-top: 5px; }

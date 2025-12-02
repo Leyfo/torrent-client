@@ -2,14 +2,17 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>Cliente Torrent</title>
+<title>Cliente Torrent Avançado</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Cliente Torrent Node.js</h1>
+  <h1>Cliente Torrent Avançado</h1>
 
-  <input id="magnetInput" type="text" placeholder="Cole o magnet link aqui">
-  <button id="addBtn">Adicionar Torrent</button>
+  <div class="controls">
+    <input id="magnetInput" type="text" placeholder="Cole o magnet link aqui">
+    <button id="addMagnetBtn">Adicionar Magnet</button>
+    <button id="addFileBtn">Adicionar Arquivo</button>
+  </div>
 
   <h2>Torrents</h2>
   <ul id="torrentList"></ul>
